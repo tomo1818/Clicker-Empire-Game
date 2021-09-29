@@ -1,0 +1,50 @@
+.full-width {
+  width: 100%;
+}
+
+body {
+  font-family: Futura;
+}
+
+.bg-navy {
+    background-color: #3c5279;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.vh-75 {
+  height: 75vh;
+}
+
+.border-2 {
+  border-width: 2px!important;
+}
+
+.border-4 {
+  border-width: 4px!important;
+}
+
+.box-height {
+  height: calc(75vh - 184px);
+}
+
+@media screen and (min-width:768px) {
+  .fit-height {
+    height: -webkit-fill-available;
+  }
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#item:hover {
+  border: 2px solid blue;
+}
