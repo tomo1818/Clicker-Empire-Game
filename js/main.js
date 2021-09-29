@@ -401,7 +401,7 @@ function createItem(item) {
     `
     <div class="py-4">
         <div class="d-flex justify-content-between">
-            <h4>${item.type}</h4>
+            <h4>${item.name}</h4>
             <h4 id="item-stock" data-stock="${item.stock}">${item.stock}</h4>
         </div>
         <div class="d-flex justify-content-between">
